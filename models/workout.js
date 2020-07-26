@@ -21,20 +21,20 @@ const workoutSchema = new Schema({
             },
             duration: {
                 type: Number,
-                required: "10"
             },
             weight: {
                 type: Number,
-                required: "100"
             },
             reps: {
                 type: Number,
-                required: "10"
             },
             sets: {
                 type: Number,
-                required: "3"
             },
+            distance: {
+                type: Number,
+            },
+
         }]
 }
 );
